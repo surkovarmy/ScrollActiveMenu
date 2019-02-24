@@ -45,7 +45,3 @@ MenuList.prototype = {
         });
     }
 };
-
-$(function() {
-    new MenuList();
-});
