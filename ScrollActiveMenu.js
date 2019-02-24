@@ -9,6 +9,7 @@ var ScrollActiveMenu = function(setting)
     this.setting = $.extend({}, defaultSetting, setting);
     this.container = $(this.setting.selector);
     this.init();
+
 };
 
 ScrollActiveMenu.prototype = {
